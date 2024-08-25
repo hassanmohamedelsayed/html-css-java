@@ -1,0 +1,28 @@
+.serial{
+    width: 100px;
+     background-color: #eee;
+     height: 30px;
+     padding: 20px;
+     margin: 20px auto 0;
+     font-family: sans-serif;
+     font-size: 22px;
+     font-weight: bold;
+     text-align: center;
+     border-radius: 4px;
+
+}
+.generate{
+    background-color: #f44336;
+    display: block;
+    margin: 20px auto 0;
+    padding: 10px 20px;
+    width: fit-content;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    user-select: none;
+}
+.generate:hover{
+background-color: #e83123;
+}

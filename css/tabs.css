@@ -1,0 +1,32 @@
+body{font-family:sans-serif ;
+}
+.tabs{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.tabs li{
+    padding: 10px;
+    border-right: 2px solid white;
+    background-color: #f6f4f4;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.tabs li.active,.tabs li:hover{
+    background-color: #ddd;
+}
+.content{
+    background-color: #ddd;
+}
+.content > div{
+    padding: 20px;
+}
+.content > div:not(:first-child){
+    display: none;
+}
+
+
+
+
+

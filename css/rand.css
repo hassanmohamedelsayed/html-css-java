@@ -1,0 +1,25 @@
+body{
+    width: 60%;
+    /* text-align: center; */
+}
+.switcher{
+    width: 40%;
+    list-style: none;
+    display: flex;
+    /* display: block; */
+    justify-content: space-around;
+    background-color: #eee;
+    border-radius: 4px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+
+    user-select: none;
+}
+
+/* .switcher:hover{background-color: red;} */
+
+.active:hover,.web:hover,.gra:hover,.mar:hover{
+background-color: red;
+border-radius: 4px;
+}
